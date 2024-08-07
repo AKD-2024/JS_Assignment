@@ -1,14 +1,13 @@
 let books = [];
 
-fetch("books.json")
-  .then((response) => response.json())
-  .then((result) => {
-    books = result;
-    displayData(books);
-  })
-  .catch((error) => {
-    console.log("Error fetching the books:", error);
-  });
+async function fetchBooksData() {
+  const response = await fetch("books.json");
+  const result = await response.json();
+  books = result;
+  displayData(books);
+}
+
+fetchBooksData();
 
 function searchBookById(bookId) {
   return new Promise((resolve) => {
@@ -44,82 +43,65 @@ function sortBooksByPrice(order) {
 
 document
   .getElementById("arrow-up-asc")
-  .addEventListener("click", function () {
-    sortBooksByPrice("asc")
-      .then((sortedBooks) => {
-        displayData(sortedBooks);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+  .addEventListener("click", async function () {
+    const sortedBooks = await sortBooksByPrice("asc");
+    displayData(sortedBooks);
   });
 
 document
   .getElementById("arrow-down-desc")
-  .addEventListener("click", function () {
-    sortBooksByPrice("desc")
-      .then((sortedBooks) => {
-        displayData(sortedBooks);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+  .addEventListener("click", async function () {
+    const sortedBooks = await sortBooksByPrice("desc");
+    displayData(sortedBooks);
   });
 
 document
   .getElementById("btn-search-id")
-  .addEventListener("click", function (event) {
+  .addEventListener("click", async function (event) {
     event.preventDefault();
     const inputElement = document.getElementById("input-search-id");
     const bookId = inputElement.value;
     if (bookId) {
-      searchBookById(bookId)
-        .then((book) => {
-          if (book) {
-            displaySimilarData([book]);
-          } else {
-            console.log("Book not found");
-          }
-        })
-        .catch((error) => {
-          console.log("Error searching by bookId:", error);
-        });
+      const book = await searchBookById(bookId);
+      if (book) {
+        displaySimilarData([book]);
+      } else {
+        console.log("Book not found");
+      }
     }
     inputElement.value = "";
   });
 
 document
   .getElementById("btn-search-genre")
-  .addEventListener("click", function (event) {
+  .addEventListener("click", async function (event) {
     event.preventDefault();
     const inputElement = document.getElementById("input-search-genre");
     const genre = inputElement.value;
     if (genre) {
-      searchBooksByGenre(genre)
-        .then((books) => {
-          displaySimilarData(books);
-        })
-        .catch((error) => {
-          console.log("Error searching by genre:", error);
-        });
+      const books = await searchBooksByGenre(genre);
+      if (books) {
+        displaySimilarData(books);
+      } else {
+        console.log("Genre not found");
+      }
     }
     inputElement.value = "";
   });
 
 document
   .getElementById("btn-search-price")
-  .addEventListener("click", function (event) {
+  .addEventListener("click", async function (event) {
     event.preventDefault();
     const inputElement = document.getElementById("input-search-price");
     const price = inputElement.value;
     if (price) {
-      searchBooksByPrice(Number(price))
-        .then((books) => {
-          displaySimilarData(books);
-        })
-        .catch((error) => {
-          console.log("Error searching by price:", error);
-        });
+      const books = await searchBooksByPrice(Number(price));
+      if (books) {
+        displaySimilarData(books);
+      } else {
+        console.log("price not found");
+      }
     }
     inputElement.value = "";
   });
