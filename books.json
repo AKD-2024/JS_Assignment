@@ -1,0 +1,502 @@
+[
+  {
+    "bookId": 1,
+    "genre": "Fantasy",
+    "price": 6
+  },
+  {
+    "bookId": 2,
+    "genre": "Thriller",
+    "price": 27
+  },
+  {
+    "bookId": 3,
+    "genre": "Historical",
+    "price": 19
+  },
+  {
+    "bookId": 4,
+    "genre": "Self-Help",
+    "price": 8
+  },
+  {
+    "bookId": 5,
+    "genre": "Science Fiction",
+    "price": 17
+  },
+  {
+    "bookId": 6,
+    "genre": "Fiction",
+    "price": 19
+  },
+  {
+    "bookId": 7,
+    "genre": "Thriller",
+    "price": 13
+  },
+  {
+    "bookId": 8,
+    "genre": "Mystery",
+    "price": 22
+  },
+  {
+    "bookId": 9,
+    "genre": "Fiction",
+    "price": 24
+  },
+  {
+    "bookId": 10,
+    "genre": "Science Fiction",
+    "price": 23
+  },
+  {
+    "bookId": 11,
+    "genre": "Biography",
+    "price": 19
+  },
+  {
+    "bookId": 12,
+    "genre": "Thriller",
+    "price": 28
+  },
+  {
+    "bookId": 13,
+    "genre": "Historical",
+    "price": 7
+  },
+  {
+    "bookId": 14,
+    "genre": "Non-Fiction",
+    "price": 15
+  },
+  {
+    "bookId": 15,
+    "genre": "Historical",
+    "price": 25
+  },
+  {
+    "bookId": 16,
+    "genre": "Fantasy",
+    "price": 18
+  },
+  {
+    "bookId": 17,
+    "genre": "Thriller",
+    "price": 23
+  },
+  {
+    "bookId": 18,
+    "genre": "Fantasy",
+    "price": 27
+  },
+  {
+    "bookId": 19,
+    "genre": "Romance",
+    "price": 28
+  },
+  {
+    "bookId": 20,
+    "genre": "Self-Help",
+    "price": 28
+  },
+  {
+    "bookId": 21,
+    "genre": "Mystery",
+    "price": 14
+  },
+  {
+    "bookId": 22,
+    "genre": "Self-Help",
+    "price": 10
+  },
+  {
+    "bookId": 23,
+    "genre": "Self-Help",
+    "price": 17
+  },
+  {
+    "bookId": 24,
+    "genre": "Science Fiction",
+    "price": 5
+  },
+  {
+    "bookId": 25,
+    "genre": "Fantasy",
+    "price": 13
+  },
+  {
+    "bookId": 26,
+    "genre": "Non-Fiction",
+    "price": 9
+  },
+  {
+    "bookId": 27,
+    "genre": "Fantasy",
+    "price": 20
+  },
+  {
+    "bookId": 28,
+    "genre": "Science Fiction",
+    "price": 9
+  },
+  {
+    "bookId": 29,
+    "genre": "Self-Help",
+    "price": 24
+  },
+  {
+    "bookId": 30,
+    "genre": "Biography",
+    "price": 6
+  },
+  {
+    "bookId": 31,
+    "genre": "Non-Fiction",
+    "price": 23
+  },
+  {
+    "bookId": 32,
+    "genre": "Fantasy",
+    "price": 16
+  },
+  {
+    "bookId": 33,
+    "genre": "Science Fiction",
+    "price": 9
+  },
+  {
+    "bookId": 34,
+    "genre": "Thriller",
+    "price": 20
+  },
+  {
+    "bookId": 35,
+    "genre": "Mystery",
+    "price": 21
+  },
+  {
+    "bookId": 36,
+    "genre": "Romance",
+    "price": 14
+  },
+  {
+    "bookId": 37,
+    "genre": "Thriller",
+    "price": 22
+  },
+  {
+    "bookId": 38,
+    "genre": "Fantasy",
+    "price": 8
+  },
+  {
+    "bookId": 39,
+    "genre": "Self-Help",
+    "price": 7
+  },
+  {
+    "bookId": 40,
+    "genre": "Self-Help",
+    "price": 28
+  },
+  {
+    "bookId": 41,
+    "genre": "Historical",
+    "price": 20
+  },
+  {
+    "bookId": 42,
+    "genre": "Fantasy",
+    "price": 16
+  },
+  {
+    "bookId": 43,
+    "genre": "Self-Help",
+    "price": 29
+  },
+  {
+    "bookId": 44,
+    "genre": "Romance",
+    "price": 24
+  },
+  {
+    "bookId": 45,
+    "genre": "Fiction",
+    "price": 18
+  },
+  {
+    "bookId": 46,
+    "genre": "Biography",
+    "price": 16
+  },
+  {
+    "bookId": 47,
+    "genre": "Biography",
+    "price": 11
+  },
+  {
+    "bookId": 48,
+    "genre": "Thriller",
+    "price": 16
+  },
+  {
+    "bookId": 49,
+    "genre": "Fantasy",
+    "price": 7
+  },
+  {
+    "bookId": 50,
+    "genre": "Fiction",
+    "price": 18
+  },
+  {
+    "bookId": 51,
+    "genre": "Fantasy",
+    "price": 24
+  },
+  {
+    "bookId": 52,
+    "genre": "Biography",
+    "price": 16
+  },
+  {
+    "bookId": 53,
+    "genre": "Thriller",
+    "price": 6
+  },
+  {
+    "bookId": 54,
+    "genre": "Self-Help",
+    "price": 23
+  },
+  {
+    "bookId": 55,
+    "genre": "Mystery",
+    "price": 16
+  },
+  {
+    "bookId": 56,
+    "genre": "Mystery",
+    "price": 6
+  },
+  {
+    "bookId": 57,
+    "genre": "Fiction",
+    "price": 19
+  },
+  {
+    "bookId": 58,
+    "genre": "Science Fiction",
+    "price": 29
+  },
+  {
+    "bookId": 59,
+    "genre": "Mystery",
+    "price": 27
+  },
+  {
+    "bookId": 60,
+    "genre": "Fiction",
+    "price": 14
+  },
+  {
+    "bookId": 61,
+    "genre": "Romance",
+    "price": 17
+  },
+  {
+    "bookId": 62,
+    "genre": "Mystery",
+    "price": 6
+  },
+  {
+    "bookId": 63,
+    "genre": "Science Fiction",
+    "price": 28
+  },
+  {
+    "bookId": 64,
+    "genre": "Biography",
+    "price": 12
+  },
+  {
+    "bookId": 65,
+    "genre": "Non-Fiction",
+    "price": 26
+  },
+  {
+    "bookId": 66,
+    "genre": "Biography",
+    "price": 28
+  },
+  {
+    "bookId": 67,
+    "genre": "Non-Fiction",
+    "price": 17
+  },
+  {
+    "bookId": 68,
+    "genre": "Historical",
+    "price": 26
+  },
+  {
+    "bookId": 69,
+    "genre": "Thriller",
+    "price": 12
+  },
+  {
+    "bookId": 70,
+    "genre": "Historical",
+    "price": 27
+  },
+  {
+    "bookId": 71,
+    "genre": "Non-Fiction",
+    "price": 19
+  },
+  {
+    "bookId": 72,
+    "genre": "Biography",
+    "price": 8
+  },
+  {
+    "bookId": 73,
+    "genre": "Fiction",
+    "price": 9
+  },
+  {
+    "bookId": 74,
+    "genre": "Biography",
+    "price": 20
+  },
+  {
+    "bookId": 75,
+    "genre": "Non-Fiction",
+    "price": 25
+  },
+  {
+    "bookId": 76,
+    "genre": "Mystery",
+    "price": 24
+  },
+  {
+    "bookId": 77,
+    "genre": "Romance",
+    "price": 12
+  },
+  {
+    "bookId": 78,
+    "genre": "Non-Fiction",
+    "price": 26
+  },
+  {
+    "bookId": 79,
+    "genre": "Historical",
+    "price": 29
+  },
+  {
+    "bookId": 80,
+    "genre": "Romance",
+    "price": 18
+  },
+  {
+    "bookId": 81,
+    "genre": "Historical",
+    "price": 9
+  },
+  {
+    "bookId": 82,
+    "genre": "Historical",
+    "price": 9
+  },
+  {
+    "bookId": 83,
+    "genre": "Science Fiction",
+    "price": 8
+  },
+  {
+    "bookId": 84,
+    "genre": "Biography",
+    "price": 23
+  },
+  {
+    "bookId": 85,
+    "genre": "Science Fiction",
+    "price": 25
+  },
+  {
+    "bookId": 86,
+    "genre": "Fiction",
+    "price": 7
+  },
+  {
+    "bookId": 87,
+    "genre": "Self-Help",
+    "price": 24
+  },
+  {
+    "bookId": 88,
+    "genre": "Romance",
+    "price": 11
+  },
+  {
+    "bookId": 89,
+    "genre": "Non-Fiction",
+    "price": 20
+  },
+  {
+    "bookId": 90,
+    "genre": "Science Fiction",
+    "price": 7
+  },
+  {
+    "bookId": 91,
+    "genre": "Biography",
+    "price": 14
+  },
+  {
+    "bookId": 92,
+    "genre": "Science Fiction",
+    "price": 25
+  },
+  {
+    "bookId": 93,
+    "genre": "Science Fiction",
+    "price": 20
+  },
+  {
+    "bookId": 94,
+    "genre": "Thriller",
+    "price": 5
+  },
+  {
+    "bookId": 95,
+    "genre": "Mystery",
+    "price": 21
+  },
+  {
+    "bookId": 96,
+    "genre": "Fantasy",
+    "price": 6
+  },
+  {
+    "bookId": 97,
+    "genre": "Science Fiction",
+    "price": 15
+  },
+  {
+    "bookId": 98,
+    "genre": "Non-Fiction",
+    "price": 9
+  },
+  {
+    "bookId": 99,
+    "genre": "Thriller",
+    "price": 23
+  },
+  {
+    "bookId": 100,
+    "genre": "Fantasy",
+    "price": 25
+  }
+]
